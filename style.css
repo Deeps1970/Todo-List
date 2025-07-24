@@ -14,7 +14,8 @@
 
 .todo-app {
   width: 100%;
-  max-width: 540px;
+  max-width: 500px;
+  min-width: 360px;
   background: #fff;
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
@@ -56,7 +57,7 @@ input {
 button {
   border: none;
   outline: none;
-  padding: 16px 50px;
+  padding: 10px 30px;
   background: #ff5945;
   color: #fff;
   font-size: 16px;
