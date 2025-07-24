@@ -15,7 +15,6 @@
 .todo-app {
   width: 100%;
   max-width: 500px;
-  min-width: 360px;
   background: #fff;
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
@@ -111,4 +110,31 @@ ul li span {
 
 ul li span:hover {
   background: #edeef0;
+}
+
+@media (max-width: 360px) {
+  .todo-app {
+    width: 100%;
+    max-width: 300px;
+  };
+
+  .todo-app h2 {
+    font-size: 12px;
+  }
+
+  .todo-app h2 img {
+    width: 20px;
+  }
+
+  .row {
+    padding-left: 10px;
+  }
+
+  input {
+    padding: 5px;
+  }
+  button {
+    
+  padding: 15px;
+  }
 }
